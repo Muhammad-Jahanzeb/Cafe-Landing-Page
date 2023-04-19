@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu+Mono&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(0,0,0,0.3), rgb(0,0,0,0.3)), url("/Practice/first_html_css/abc.jpg");
+    background-size: cover;
+}
+
+nav{
+    height:80px;
+    background-color:rgb(44, 44, 43);
+    color:aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Logo{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.menu a{
+    color: aliceblue;
+    padding: 0px 40px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    transition: 0.4s;
+
+}
+
+.menu a:hover{
+    background: transparent;
+    border: 1px solid lightcoral;
+}
+
+#register{
+    background-color: lightcoral;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s;
+}
+
+.middle-text{
+    position: absolute;
+    top:48%;
+    left:35%;
+    color:aliceblue;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.middle-text span{
+    letter-spacing: 2px;;
+}
+
+.middle-text h1{
+    font-size: 50px;
+}
+
+.middle-text a{
+    text-decoration: none;
+    color:aliceblue;
+    background-color: lightcoral;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.4s;
+}
+
+.middle-text a:hover{
+    border: 1px solid lightcoral;
+    background: transparent;
+}
+
+#register:hover{
+    border: 1px solid lightcoral;
+    background: transparent;
+}
